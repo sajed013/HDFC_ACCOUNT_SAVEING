@@ -8,8 +8,8 @@ public class Hdfc_Controller {
 
 	@GetMapping("/getinfo")
 	public String Getinformation() {
-
-		return "This is Hdgfc bank ,Welcome to ";
+		
+		return "This is Hdgfc bank ,Welcome to,Hdfc_Controller class ";
 	}
 
 }
